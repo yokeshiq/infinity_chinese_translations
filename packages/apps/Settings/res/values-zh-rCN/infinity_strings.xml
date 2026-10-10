@@ -221,4 +221,14 @@
     <string name="glass_blur_summary">将默认模糊效果替换为高级玻璃模糊效果\n⚠️ 在某些低端设备上可能会导致延迟或更高的电池消耗/温度。\n注意：此功能可能无法在所有设备上运行。</string>
 
     <string name="window_blurs">允许窗口级模糊效果</string>
+    <string name="keyboard_default_layout">默认</string>
+    <string name="modifier_keys_default_summary">默认</string>
+    <string name="accessibility_timeout_default">默认</string>
+    <string name="autoclick_cursor_area_size_dialog_option_default">默认</string>
+    <string name="locale_default">默认</string>
+    <string name="color_unspecified">默认</string>
+    <string name="notification_alert_title">默认</string>
+    <string name="default_theme">默认</string>
+    <string name="graphics_driver_app_preference_default">默认</string>
+    <string name="contrast_default">默认</string>
 </resources>

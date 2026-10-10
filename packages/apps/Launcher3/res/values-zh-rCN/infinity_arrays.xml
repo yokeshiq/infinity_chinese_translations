@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="allapps_search_placement_entries">
+        <item>@string/drawer_search_location_hidden</item>
+        <item>@string/drawer_search_location_top</item>
+        <item>@string/drawer_search_location_bottom</item>
+    </string-array>
+</resources>
