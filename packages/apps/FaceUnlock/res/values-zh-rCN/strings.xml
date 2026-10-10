@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">人脸解锁服务</string>
+
+    <!-- Enrollment activity -->
+    <string name="face_enroll_title">将您的脸置于摄像头画面中央</string>
+    <string name="face_enroll_description">请保持静止，并确保环境光线充足</string>
+
+    <!-- Try Again activity -->
+    <string name="face_try_again_title">无法采集人脸</string>
+    <string name="face_try_again_description">点按下方按钮重试。下次请确保环境光线充足，且没有物体遮挡您的脸</string>
+    <string name="btn_try_again">重试</string>
+
+    <!-- Vendor messages -->
+    <string name="attr_light_dark">人脸光线不足</string>
+    <string name="attr_light_high">人脸光线过强</string>
+    <string name="attr_light_shadow">人脸阴影过多</string>
+    <string name="unlock_failed_face_blur">人脸模糊</string>
+    <string name="unlock_failed_face_large">人脸距离过近</string>
+    <string name="unlock_failed_face_multi">检测到多张人脸</string>
+    <string name="unlock_failed_face_not_complete">未能完整检测到人脸</string>
+    <string name="unlock_failed_face_small">人脸距离过远</string>
+</resources>

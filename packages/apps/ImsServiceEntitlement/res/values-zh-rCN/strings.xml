@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="wfc_activation_error">无法启用 Wi-Fi 通话，请稍后重试。</string>
+    <string name="address_update_error">暂时无法更新当前紧急地址，请稍后重试。</string>
+    <string name="show_terms_and_condition_error">无法显示运营商的条款和条件，请稍后重试。</string>
+    <string name="emergency_address_app_label">运营商设置</string>
+    <string name="progress_text">这需要一些时间</string>
+    <string name="failure_contact_carrier">请联系运营商启用 Wi-Fi 通话。</string>
+    <string name="activate_title">启用 Wi-Fi 通话</string>
+    <string name="cancel">取消</string>
+    <string name="tos_title">条款和条件</string>
+    <string name="tos_continue">继续</string>
+    <string name="e911_title">紧急位置信息</string>
+    <string name="ok">确定</string>
+</resources>

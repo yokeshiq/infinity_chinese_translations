@@ -1,0 +1,157 @@
+
+project packages/apps/OmniStyle/
+diff --git a/res/values-zh-rCN/strings.xml b/res/values-zh-rCN/strings.xml
+index 8a8f34a..7c1d0b6 100644
+--- a/res/values-zh-rCN/strings.xml
++++ b/res/values-zh-rCN/strings.xml
+@@ -53,4 +53,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+     <string name="theme_compose">自定义</string>
+     <string name="button_apply">应用</string>
+     <string name="notification_overlay_info">\n更改通知覆盖后需要重新启动</string>
++
++    <string name="wallpaper_location_remote">在线</string>
++    <string name="pick_header">选择顶部主题图像</string>
++    <string name="header_location_online">在线</string>
+ </resources>
+
+project packages/apps/Sandbox/
+diff --git a/res/values-zh/strings.xml b/res/values-zh/strings.xml
+index e7e0680..42334fe 100644
+--- a/res/values-zh/strings.xml
++++ b/res/values-zh/strings.xml
+@@ -220,9 +220,9 @@
+     <!-- Timeout options -->
+     <string name="timeout_15s">15 秒</string>
+     <string name="timeout_30s">30 秒</string>
+-    <string name="timeout_60s">1 minute</string>
++    <string name="timeout_60s">1 分钟</string>
+     <string name="timeout_120s">2 分钟</string>
+-    <string name="timeout_300s">5 minutes</string>
++    <string name="timeout_300s">5 分钟</string>
+     <!-- Authenticate activity -->
+     <string name="auth_title_unlock">解锁 %s</string>
+     <string name="auth_prompt">输入您的沙盒凭据以解锁 %s</string>
+
+project packages/apps/Settings/
+diff --git a/res/values-zh-rCN/infinity_strings.xml b/res/values-zh-rCN/infinity_strings.xml
+index e7da4b2a..361446bf 100644
+--- a/res/values-zh-rCN/infinity_strings.xml
++++ b/res/values-zh-rCN/infinity_strings.xml
+@@ -219,4 +219,6 @@
+     <!-- Glass Blur -->
+     <string name="glass_blur_title">为系统模糊使用玻璃模糊效果</string>
+     <string name="glass_blur_summary">将默认模糊效果替换为高级玻璃模糊效果\n⚠️ 在某些低端设备上可能会导致延迟或更高的电池消耗/温度。\n注意：此功能可能无法在所有设备上运行。</string>
+-</resources>
+\ No newline at end of file
++
++    <string name="window_blurs">允许窗口级模糊效果</string>
++</resources>
+diff --git a/res/values-zh-rCN/strings.xml b/res/values-zh-rCN/strings.xml
+index 2f9b8a6c..d00b8e20 100644
+--- a/res/values-zh-rCN/strings.xml
++++ b/res/values-zh-rCN/strings.xml
+@@ -6231,4 +6231,6 @@
+     <string name="permit_access_hid" msgid="870824396872060949">"允许应用发现人体学接口设备 (HID)"</string>
+     <string name="allow_access_hid_description" msgid="5950783046013896271">"如果您允许访问，恶意应用可能会重新编写人体学接口设备的程序，从而危及您的系统。例如，应用可以在未运行的情况下，模拟键盘或鼠标输入来控制您的系统。请先确保信任应用，再授予访问权限。"</string>
+     <string name="keywords_access_hid" msgid="682455265293135353">"人机交互设备, HID, 访问权限, 设备"</string>
++    <string name="personal_context_title">个人情境管理器</string>
++    <string name="platform_compat_target_sdk_title">适用于 targetSdkVersion ≥ %d 的应用</string>
+ </resources>
+
+project packages/apps/Updater/
+diff --git a/app/src/main/res/values-zh-rCN/strings.xml b/app/src/main/res/values-zh-rCN/strings.xml
+index 29d7cbf..fa2d38a 100644
+--- a/app/src/main/res/values-zh-rCN/strings.xml
++++ b/app/src/main/res/values-zh-rCN/strings.xml
+@@ -119,4 +119,8 @@
+     <string name="local_update_import_failure">导入本地更新失败</string>
+     <string name="local_update_import_install">安装</string>
+     <string name="local_update_name">本地更新</string>
++
++    <string name="list_build_version_formatted">Infinity-X %1$s（Android %2$s）</string>
++    <string name="no_new_updates_available">暂无可用更新</string>
++    <string name="play_game_till_wait">点按即可在等待时玩个小游戏…</string>
+ </resources>
+
+project packages/services/OmniJaws/
+diff --git a/app/src/main/res/values-zh-rCN/strings.xml b/app/src/main/res/values-zh-rCN/strings.xml
+index 5149412..6d8daef 100644
+--- a/app/src/main/res/values-zh-rCN/strings.xml
++++ b/app/src/main/res/values-zh-rCN/strings.xml
+@@ -55,4 +55,76 @@
+     <string name="with_forecast_title">4 天的预测和详细信息</string>
+     <string name="owm_key">自定义OWM密钥</string>
+     <string name="omnijaws_city_unkown">未知</string>
++
++    <!-- Added weather settings and dashboard translations -->
++    <string name="activity_title">天气</string>
++    <string name="category_general">常规</string>
++    <string name="category_appearance">外观</string>
++    <string name="category_api">API</string>
++    <string name="weather_last_update_never">从未更新</string>
++    <string name="custom_location_summary">使用手动选择的位置</string>
++    <string name="grant_location_permission_title">授予位置权限</string>
++    <string name="grant_location_permission_summary">自动定位需要此权限</string>
++    <string name="icon_theme_title">图标主题</string>
++    <string name="theme_system">跟随系统</string>
++    <string name="theme_light">浅色</string>
++    <string name="theme_dark">深色</string>
++    <string name="pirate_weather_key">Pirate Weather API 密钥</string>
++    <string name="api_key_note">Pirate Weather 需要提供 API 密钥才能使用；使用 OpenWeatherMap 时，建议设置自定义 OWM 密钥。点按“最后更新时间”可强制更新并测试密钥。</string>
++    <string name="api_links_note"><![CDATA[获取 API 密钥：<a href="https://pirate-weather.apiable.io/products/weather-data/plans">Pirate Weather</a> | <a href="https://openweathermap.org/price">OpenWeatherMap</a>]]></string>
++    <string name="menu">菜单</string>
++    <string name="temperature_low">最低</string>
++    <string name="temperature_high">最高</string>
++    <string name="dashboard_error_subtitle">请检查设置或尝试刷新</string>
++    <string name="dashboard_provider_attribution">天气数据由 %1$s 提供</string>
++    <string name="forecast_card_hourly_title">逐小时预报</string>
++    <string name="forecast_card_title">多日预报</string>
++    <string name="forecast_show_more">显示更多</string>
++    <string name="forecast_show_less">收起</string>
++    <string name="forecast_today">今天</string>
++    <string name="detail_feels_like">体感温度</string>
++    <string name="detail_uv_index">紫外线指数</string>
++    <string name="detail_humidity">湿度</string>
++    <string name="detail_wind">风力</string>
++    <string name="detail_pressure">气压</string>
++    <string name="detail_visibility">能见度</string>
++    <string name="detail_sunrise_sunset">日出和日落</string>
++    <string name="detail_dew_point">露点</string>
++    <string name="uv_level_low">低</string>
++    <string name="uv_level_moderate">中等</string>
++    <string name="uv_level_high">高</string>
++    <string name="uv_level_very_high">很高</string>
++    <string name="uv_level_extreme">极高</string>
++    <string name="visibility_level_clear">晴朗</string>
++    <string name="visibility_level_good">良好</string>
++    <string name="visibility_level_moderate">一般</string>
++    <string name="visibility_level_poor">较差</string>
++    <string name="visibility_subtitle">公里 · %1$s</string>
++    <string name="dew_point_dry">干燥</string>
++    <string name="dew_point_comfortable">舒适</string>
++    <string name="dew_point_slightly_humid">略潮湿</string>
++    <string name="dew_point_humid">潮湿</string>
++    <string name="pressure_level_low">低</string>
++    <string name="pressure_level_normal">正常</string>
++    <string name="pressure_level_high">高</string>
++    <string name="daylight_duration_format">%1$d小时%2$d分钟</string>
++    <string name="omnijaws_service_waiting">正在等待…</string>
++    <string name="omnijaws_service_init">正在等待…</string>
++    <string name="omnijaws_service_progress">正在更新…</string>
++    <string name="omnijaws_service_last_update">最后更新：</string>
++    <string name="omnijaws_detail_header">天气</string>
++    <string name="omnijaws_label_default">天气</string>
++    <string name="location_browse_activity_title">选择位置</string>
++    <string name="location_query_hint">搜索位置</string>
++    <string name="weather_widget_desc">当前天气和多日天气预报</string>
++    <string name="omnijaws_service_error_long">加载天气数据时出错</string>
++    <string name="omnijaws_service_error_location">没有可用的位置</string>
++    <string name="omnijaws_service_error_network">未找到网络</string>
++    <string name="color_theme_title">主题</string>
++    <string name="theme_follow_widget">跟随小组件</string>
++    <string name="theme_follow_app">跟随应用</string>
++    <string name="bg_transparency_title">透明度</string>
++    <string name="trans_semi">半透明</string>
++    <string name="trans_full">透明</string>
++    <string name="trans_solid">不透明</string>
+ </resources>

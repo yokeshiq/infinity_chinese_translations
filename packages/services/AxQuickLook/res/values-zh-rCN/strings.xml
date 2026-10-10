@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AxQuickLook</string>
+    <string name="calendar_in_time">%d 分钟后</string>
+    <string name="calendar_now">现在</string>
+    <string name="calendar_tomorrow">明天</string>
+    <string name="calendar_yesterday">昨天</string>
+    <string name="quicklook_settings_title">QuickLook</string>
+    <string name="quicklook_settings_subtitle">配置智能空间数据来源</string>
+    <string name="quicklook_category_sources">数据来源</string>
+    <string name="quicklook_category_smartspace">智能空间</string>
+    <string name="quicklook_weather_title">天气</string>
+    <string name="quicklook_weather_summary">来自 OmniJaws 的当前天气状况</string>
+    <string name="quicklook_calendar_title">日历</string>
+    <string name="quicklook_calendar_summary">即将开始的日历活动</string>
+    <string name="quicklook_alarm_title">下一个闹钟</string>
+    <string name="quicklook_alarm_summary">下一个已设闹钟的时间</string>
+    <string name="quicklook_media_title">媒体</string>
+    <string name="quicklook_media_summary">当前播放的媒体信息</string>
+    <string name="quicklook_now_playing_title">正在播放</string>
+    <string name="quicklook_now_playing_summary">由 Google 提供的环境音乐识别</string>
+    <string name="quicklook_google_smartspace_title">Google 智能空间</string>
+    <string name="quicklook_google_smartspace_summary">来自 Google 的天气、计时器、体育赛事等信息</string>
+    <string name="quicklook_smartspacer_title">Smartspacer</string>
+    <string name="quicklook_smartspacer_summary">显示 Smartspacer 应用提供的信息</string>
+</resources>
