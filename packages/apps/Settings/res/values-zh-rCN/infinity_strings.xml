@@ -231,4 +231,7 @@
     <string name="default_theme">默认</string>
     <string name="graphics_driver_app_preference_default">默认</string>
     <string name="contrast_default">默认</string>
+    <string name="work_challenge_emergency_button_text">紧急呼救</string>
+    <string name="user_settings_title">用户</string>
+    <string name="user_category_title">用户</string>
 </resources>
