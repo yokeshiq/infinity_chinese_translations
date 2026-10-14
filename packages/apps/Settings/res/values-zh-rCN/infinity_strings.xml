@@ -1,237 +1,332 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2007 The Android Open Source Project
-     根据 Apache License, Version 2.0 (以下简称 "许可证") 授权;
-     除非符合许可证，否则不得使用此文件。
-     您可以在以下网址获取许可证副本：
-          http://www.apache.org/licenses/LICENSE-2.0
-     除非适用法律要求或书面同意，否则按"原样"分发的软件
-     没有任何明示或暗示的保证或条件。
-     请参阅许可证了解特定语言的管理权限和限制。
--->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
-    <!-- 智能 5G -->
-    <string name="smart_5g_title">智能 5G</string>
-    <string name="smart_5g_summary">自动在 5G 和 4G 之间切换以减少电池消耗</string>
-
-    <!-- 真实显示引擎 -->
-    <string name="display_engine_category">显示引擎</string>
-    <string name="display_engine_mode_title">真实显示引擎</string>
-    <string name="x_reality_engine_mode_title">X-Reality 引擎</string>
-    <string name="triluminous_display_mode_title">特丽魅彩显示</string>
-    <string name="vivid_engine_mode_title">鲜艳显示</string>
-    <string name="display_engine_default">默认</string>
-    <string name="display_engine_mode_footer_text">灵感来自索尼的 Bravia/X-Reality 引擎，显示引擎具有鲜艳模式以增强亮度和色彩饱和度，以及 X-Reality 模式以改善细节和色彩准确性。</string>
-   
-    <!-- 双击唤醒 -->
-    <string name="double_tap_title">双击</string>
-    <string name="doze_double_tap_title">双击查看手机</string>
-    <string name="doze_double_tap_summary">通过双击脉冲通知</string>
-
-    <!-- 关于手机 -->
-    <string name="text_processor">处理器</string>
-    <string name="text_display">显示</string>
-    <string name="text_battery">电池</string>
-    <string name="text_camera">相机</string>
-    <string name="text_ram_">RAM：</string>
-    <string name="text_rom_">ROM：</string>
-    <string name="text_maintainer">维护者</string>
-    <string name="text_kernel_version">内核</string>
-    <string name="official_build_suffix">- 官方</string>
-    <string name="unofficial_build_suffix">- 非官方</string>
-    <string name="ram_active_label">活跃</string>
-
-     <!-- 仪表板消息 -->
-      <string name="dashboard_morning1">积极开始新的一天！</string>
-      <string name="dashboard_morning2">太阳升起来了！</string>
-      <string name="dashboard_morning3">美好的早晨</string>
-      <string name="dashboard_morning4">又是新的一天！</string>
-      <string name="dashboard_morning5">新的一天</string>
-      <string name="dashboard_morning_greeting1">早上好</string>
-      <string name="dashboard_morning_greeting2">日安</string>
-      <string name="dashboard_noon1">享受生活！</string>
-      <string name="dashboard_noon2">享受日落</string>
-      <string name="dashboard_noon3">欢迎回家</string>
-      <string name="dashboard_noon4">享受这一天！</string>
-      <string name="dashboard_noon5">欢迎回来</string>
-      <string name="dashboard_noon_greeting1">下午好</string>
-      <string name="dashboard_early_night1">夜晚来临！</string>
-      <string name="dashboard_early_night2">晚餐时间！</string>
-      <string name="dashboard_early_night_greeting1">晚上好</string>
-      <string name="dashboard_night3">甜美的梦！</string>
-      <string name="dashboard_night4">该睡觉了！</string>
-      <string name="dashboard_night5">睡个好觉！</string>
-      <string name="dashboard_night_greetings1">晚安</string>
-      <string name="dashboard_midnight1">享受宁静</string>
-      <string name="dashboard_midnight2">无限的爱！</string>
-      <string name="dashboard_midnight3">睡一会儿吧</string>
-      <string name="dashboard_midnight4">休息一下</string>
-      <string name="dashboard_midnight5">睡得晚？</string>
-      <string name="dashboard_random1">嘿         </string>
-      <string name="dashboard_random2">你好       </string>
-      <string name="dashboard_random3">问候     </string>
-      <string name="dashboard_random4">美好的一天    </string>
-      <string name="dashboard_random5">欢迎     </string>
-      <string name="dashboard_random6">怎么了  </string>
-      <string name="dashboard_random_greetings1">尝试寻找一些彩蛋！</string>
-      <string name="dashboard_random_greetings2">无限可能！</string>
-      <string name="dashboard_random_greetings3">你探索过 Infinity 了吗？</string>
-      <string name="dashboard_random_greetings4">享受你的一天！</string>
-      <string name="settings_random1">在找什么？</string>
-      <string name="settings_random2">寻找，你就会看见</string>
-      <string name="settings_random3">寻求，你就会找到</string>
-      <string name="settings_random4">搜索无限</string>
-      <string name="settings_random5">搜索设置</string>
-      <string name="settings_random6">敢于梦想，敢于失败！</string>
-      <string name="default_user">用户</string>
-
-    <!-- Infinity 套件 -->
-     <string name="infinity_suite_dash_title">Infinity 套件</string>
-     <string name="infinity_suite_summary">进一步个性化您的设备</string>
-
-    <string name="gms_services_title">Google 服务</string>
-    <string name="gms_services_summary">Google 服务和偏好设置</string>
-    <string name="wellbeing_title">数字健康</string>
-    <string name="wellbeing_summary">数字健康和家长控制</string>
-
-    <!-- 睡眠模式 -->
-    <string name="sleep_mode_title">睡眠模式</string>
-    <string name="sleep_mode_summary_on">开 / <xliff:g name="auto_mode_summary" example="从不自动关闭">%1$s</xliff:g></string>
-    <string name="sleep_mode_summary_off">关 / <xliff:g name="auto_mode_summary" example="从不自动开启">%1$s</xliff:g></string>
-    <string name="sleep_mode_ringer_title">铃声模式</string>
-    <string name="sleep_mode_ringer_off_title">不更改</string>
-    <string name="sleep_mode_ringer_vibrate_title">振动</string>
-    <string name="sleep_mode_ringer_dnd_title">请勿打扰</string>
-    <string name="sleep_mode_ringer_silent_title">静音</string>
-    <string name="sleep_mode_schedule_sunset">日落</string>
-    <string name="sleep_mode_schedule_sunrise">日出</string>
-    <string name="sleep_mode_schedule_mixed_sunset">从日落到自定义时间开启</string>
-    <string name="sleep_mode_schedule_mixed_sunrise">从自定义时间到日出开启</string>
-    <string name="sleep_mode_toggles_title">开关</string>
-    <string name="sleep_mode_wifi_toggle_title">关闭 Wi-Fi</string>
-    <string name="sleep_mode_wifi_toggle_summary">睡眠模式开启时禁用 Wi-Fi</string>
-    <string name="sleep_mode_bluetooth_toggle_title">关闭蓝牙</string>
-    <string name="sleep_mode_bluetooth_toggle_summary">睡眠模式开启时禁用蓝牙</string>
-    <string name="sleep_mode_cellular_toggle_title">关闭移动数据</string>
-    <string name="sleep_mode_cellular_toggle_summary">睡眠模式开启时禁用移动数据</string>
-    <string name="sleep_mode_location_toggle_title">关闭位置</string>
-    <string name="sleep_mode_location_toggle_summary">睡眠模式开启时禁用位置</string>
-    <string name="sleep_mode_sensors_toggle_title">关闭传感器</string>
-    <string name="sleep_mode_sensors_toggle_summary">睡眠模式开启时禁用传感器</string>
-    <string name="sleep_mode_display_text">睡眠模式允许您禁用某些服务，以帮助在您睡觉时节省电池电量并使手机静音。</string>
-    <!-- 显示设置屏幕，手动模式的激活按钮操作。[字符限制=40] -->
-    <string name="night_display_activation_on_manual">立即开启</string>
-    <!-- 显示设置屏幕，手动模式的停用按钮操作。[字符限制=40] -->
-    <string name="night_display_activation_off_manual">立即关闭</string>
-    <!-- 显示设置屏幕，日落至日出计划的激活按钮操作 [字符限制=40] -->
-    <string name="night_display_activation_on_twilight">开启直至日出</string>
-    <!-- 显示设置屏幕，日落至日出计划的停用按钮操作 [字符限制=40] -->
-    <string name="night_display_activation_off_twilight">关闭直至日落</string>
-    <!-- 显示设置屏幕，自定义计划的激活按钮操作 [字符限制=40] -->
-    <string name="night_display_activation_on_custom">开启直至 <xliff:g name="time" example="6 AM">%1$s</xliff:g></string>
-    <!-- 显示设置屏幕，自定义计划的停用按钮操作 [字符限制=40] -->
-    <string name="night_display_activation_off_custom">关闭直至 <xliff:g name="time" example="10 PM">%1$s</xliff:g></string>
-
-    <!-- WiFi 热点 -->
-    <string name="wifi_hotspot_client_manager_title">已连接设备</string>
-    <string name="wifi_hotspot_client_manager_summary">列出和管理连接到热点的设备</string>
-    <string name="wifi_hotspot_client_manager_list_only_summary">列出连接到热点的设备</string>
-    <string name="wifi_hotspot_client_limit_title">连接设备限制</string>
-    <string name="wifi_hotspot_blocked_clients_list_title">已阻止设备</string>
-    <string name="wifi_hotspot_connected_clients_list_title">已连接设备</string>
-    <string name="wifi_hotspot_block_client_dialog_title">阻止设备</string>
-    <string name="wifi_hotspot_block_client_dialog_text">此操作将从本设备断开 \"<xliff:g id="device_name">%1$s</xliff:g>\" 的连接并将其添加到阻止列表</string>
-    <string name="wifi_hotspot_unblock_client_dialog_title">取消阻止设备</string>
-    <string name="wifi_hotspot_unblock_client_dialog_text">设备 \"<xliff:g id="device_name">%1$s</xliff:g>\" 将能够连接到此热点</string>
-    <string name="wifi_hotspot_client_manager_footer_text">当前没有可用的客户端。可用时，已连接和已阻止的设备将在此列出。</string>
-    <plurals name="wifi_hotspot_client_limit_summary">
-        <item quantity="other">最多 <xliff:g id="device_num">%1$d</xliff:g> 个设备可连接到此热点</item>
-        <item quantity="one">最多 <xliff:g id="device_num">%1$d</xliff:g> 个设备可连接到此热点</item>
-    </plurals>
-
-    <!-- USB 配置 -->
-    <string name="usb_default_config_title">USB 配置</string>
-    <string name="usb_default_config_summary">选择通过 USB 连接到设备时的默认行为</string>
-
-    <string name="refresh_rate_title">刷新率</string>
-    <string name="refresh_rate_summary_vrr_off">%d Hz</string> 
-    <string name="refresh_rate_summary_vrr_on">%d Hz (自适应)</string>
-    <string name="refresh_rate_vrr_title">自适应刷新率</string> 
-    <string name="refresh_rate_vrr_summary">显示空闲时自动降低刷新率以节省电量。可能导致某些显示器出现闪烁或色彩偏移</string> 
-    <string name="refresh_rate_footer">更高的刷新率使显示更流畅，但会增加功耗</string>
-    <string name="keywords_refresh_rate">刷新, 频率, 流畅, 峰值, 60赫兹, 90赫兹, 120赫兹, 144赫兹, 165赫兹</string>
-    <string name="peak_refresh_rate_summary">自动将刷新率从 60 提升到 <xliff:g name="refresh_rate" example="120">%1$s</xliff:g> Hz 以显示某些内容。会增加电池使用量。</string>
-
-    <!-- 通用 -->
-     <string name="copied_to_clipboard">已复制到剪贴板</string>
-     <string name="longpress_to_clipboard">长按以复制</string>
-
-    <!-- 无线电信息 -->
-    <string name="radio_info_title">无线电信息</string>
-
-<!-- Doze 设置 -->
-<string name="doze_pulse_on_pickup_title">拿起时脉冲</string>
-<string name="doze_pulse_on_pickup_summary">设备拿起时脉冲通知\n注意：需要启用抬起唤醒功能</string>
-<string name="doze_pulse_on_double_tap_title">双击时脉冲</string>
-<string name="doze_pulse_on_double_tap_summary">双击时脉冲通知\n注意：需要启用电容唤醒功能</string>
-<string name="doze_pulse_on_single_tap_title">点击时脉冲</string>
-<string name="doze_pulse_on_single_tap_summary">点击时脉冲通知\n注意：需要启用电容唤醒功能</string>
-
-<!-- 应用配置 -->
-<string name="per_app_config_empty_text">没有已安装的应用支持当前设置</string>
-
-<!-- 应用刷新率 -->
-<string name="per_app_refresh_rate_title">应用刷新率配置</string>
-<string name="per_app_refresh_rate_summary">为每个应用单独配置刷新率</string>
-<string name="per_app_refresh_rate_default">跟随系统</string>
-
-<!-- 屏幕刷新率 -->
-<string name="screen_refresh_rate_title">屏幕刷新率</string>
-<string name="min_refresh_rate_title">最低刷新率</string>
-<string name="max_refresh_rate_title">最高刷新率</string>
-<string name="battery_saver_refresh_rate_title">降低刷新率</string>
-<string name="battery_saver_refresh_rate_summary">当电池节省模式开启时，使用 60 Hz 屏幕刷新率以节省电量</string>
-<string name="battery_saver_refresh_rate_disabled_summary">极致刷新率已开启</string>
-
-<!-- 极致刷新率 -->
-<string name="extreme_refresh_rate_title">极致刷新率</string>
-<string name="extreme_refresh_rate_summary">强制所有应用使用最高刷新率</string>
-<string name="extreme_refresh_rate_warning">这将确保系统选择最高刷新率，忽略用户选择和应用首选项。需要特定刷新率的应用可能运行异常。</string>
-
-<!-- 确认对话框 -->
-<string name="confirm_before_enable_title">继续启用？</string>
-
-<!-- 模糊强度 -->
-<string name="blur_intensity_title">模糊强度</string>
-<string name="blur_intensity_summary" formatted="false">控制系统范围内的模糊效果强度。\n0% = 无模糊，100% = 系统默认，200% = 双倍强度。</string>
-
-    <!-- Override Mock Location restriction -->
-    <string name="override_mock_location_title">覆盖 MockLocation 限制</string>
-    <string name="override_mock_location_summary">启用后，应用无法检测到位置正在被模拟</string>
-    <string name="override_mock_location_enabled">已启用</string>
-    <string name="override_mock_location_disabled">已禁用</string>
-
-    <!-- HDR Display -->
-    <string name="hdr_display_title">增强 HDR 亮度</string>
-    <string name="hdr_display_summary">提高亮度并扩展高动态范围 (HDR) 图像和视频的色域和清晰度。HDR 内容将显得更明亮。这将增加电池使用量</string>
-    <string name="hdr_max_brightness_percent_title">HDR 亮度强度</string>
-
-    <!-- Glass Blur -->
-    <string name="glass_blur_title">为系统模糊使用玻璃模糊效果</string>
-    <string name="glass_blur_summary">将默认模糊效果替换为高级玻璃模糊效果\n⚠️ 在某些低端设备上可能会导致延迟或更高的电池消耗/温度。\n注意：此功能可能无法在所有设备上运行。</string>
-
-    <string name="window_blurs">允许窗口级模糊效果</string>
-    <string name="keyboard_default_layout">默认</string>
-    <string name="modifier_keys_default_summary">默认</string>
-    <string name="accessibility_timeout_default">默认</string>
-    <string name="autoclick_cursor_area_size_dialog_option_default">默认</string>
-    <string name="locale_default">默认</string>
-    <string name="color_unspecified">默认</string>
-    <string name="notification_alert_title">默认</string>
-    <string name="default_theme">默认</string>
-    <string name="graphics_driver_app_preference_default">默认</string>
-    <string name="contrast_default">默认</string>
-    <string name="work_challenge_emergency_button_text">紧急呼救</string>
-    <string name="user_settings_title">用户</string>
-    <string name="user_category_title">用户</string>
+    <string name="settings_title">桌面设置</string>
+    <string name="home_category_title">主屏幕</string>
+    <string name="home_category_summary">设置 Google Now 面板等选项</string>
+    <string name="icons_category_title">图标</string>
+    <string name="icons_category_summary">设置图标大小等选项</string>
+    <string name="app_drawer_category_title">应用抽屉</string>
+    <string name="app_drawer_category_summary">自定义应用抽屉</string>
+    <string name="recents_category_title">最近任务</string>
+    <string name="recents_category_summary">自定义最近任务界面</string>
+    <string name="misc_category_title">其他</string>
+    <string name="misc_category_summary">其他选项</string>
+    <string name="general_category_title">常规</string>
+    <string name="interface_category_title">界面</string>
+    <string name="quickspace_category_title">Quickspace</string>
+    <string name="search_bar_category_title">搜索栏</string>
+    <string name="actions_category_title">快捷操作</string>
+    <string name="dev_options_title">开发者选项</string>
+    <string name="dev_options_summary">启用部分隐藏功能，风险自负</string>
+    <string name="settings_lock_layout_title">锁定布局</string>
+    <string name="settings_lock_layout_summary_on">无法在主屏幕上添加、移除或移动图标和小组件</string>
+    <string name="settings_lock_layout_summary_off">可以在主屏幕上添加、移除或移动图标和小组件</string>
+    <string name="settings_edit_widgets_error">无法将小组件添加到主屏幕</string>
+    <string name="desktop_show_labels">桌面图标名称</string>
+    <string name="drawer_show_labels">应用抽屉图标名称</string>
+    <string name="title_show_google_app">滑动以打开 Google 应用</string>
+    <string name="msg_minus_one_on_left">在主屏幕上向右滑动时显示</string>
+    <string name="msg_minus_one_on_right">在主屏幕上向左滑动时显示</string>
+    <string name="pref_icon_customization_title">在应用抽屉中使用图标自定义设置</string>
+    <string name="pref_icon_customization_summary">沿用主屏幕上的图标自定义设置</string>
+    <string name="pause">暂停</string>
+    <string name="pause_apps_dialog_title">要暂停“%1$s”吗？</string>
+    <string name="pause_apps_dialog_message">“%1$s”的通知将被暂停</string>
+    <string name="paused_apps_dialog_title">应用已暂停</string>
+    <string name="paused_apps_dialog_message">已通过桌面直接暂停 %1$s</string>
+    <string name="paused_apps_drop_target_label">暂停应用</string>
+    <string name="work_apps_paused_title_calyx">工作应用已关闭</string>
+    <string name="work_apps_pause_btn_text_calyx">关闭工作应用</string>
+    <string name="work_apps_enable_btn_text_calyx">开启工作应用</string>
+    <string name="work_apps_paused_info_body_custom">工作应用无法向您发送通知、消耗电量或访问位置信息</string>
+    <string name="work_apps_paused_telephony_unavailable_body_custom">工作应用无法接听电话、收发短信、向您发送通知、消耗电量或访问位置信息</string>
+    <string name="suggestion_pref_screen_title">建议</string>
+    <string name="suggestion_pref_screen_desc">设置所有应用和主屏幕上的建议</string>
+    <string name="pref_restart_title">重启桌面</string>
+    <string name="pref_restart_summary">手动重启桌面以应用待处理的设置</string>
+    <string name="restarting_launcher">正在重启桌面…</string>
+    <string name="restarting_launcher_changes">正在重启桌面以应用更改…</string>
+    <string name="updating_launcher_components">正在重启桌面以更新组件…</string>
+    <string name="pref_sleep_gesture_title">双击息屏</string>
+    <string name="pref_sleep_gesture_summary">双击主屏幕空白处关闭屏幕</string>
+    <string name="pref_sleep_gesture_haptic_title">双击息屏时振动</string>
+    <string name="pref_sleep_gesture_haptic_summary">双击息屏时提供触觉反馈</string>
+    <string name="pebble_shape_title">卵石形</string>
+    <string name="vessel_shape_title">容器形</string>
+    <string name="pure_square_shape_title">正方形</string>
+    <string name="squircle_shape_title">圆角方形</string>
+    <string name="tapered_rect_shape_title">渐窄矩形</string>
+    <string name="teardrop_shape_title">水滴形</string>
+    <string name="rounded_rect_shape_title">圆角矩形</string>
+    <string name="cloudy_shape_title">云朵形</string>
+    <string name="cylindrical_shape_title">圆柱形</string>
+    <string name="flower_shape_title">花形</string>
+    <string name="heart_shape_title">心形</string>
+    <string name="hexagon_shape_title">六边形</string>
+    <string name="rounded_hexagon_shape_title">圆角六边形</string>
+    <string name="ios_style_shape_title">iOS 风格</string>
+    <string name="leaf_shape_title">叶形</string>
+    <string name="meow_shape_title">猫爪形</string>
+    <string name="samsung_style_shape_title">Samsung 风格</string>
+    <string name="stretched_shape_title">拉伸形</string>
+    <string name="drawer_open_keyboard_title">滑动以开始搜索</string>
+    <string name="drawer_open_keyboard_summary">打开应用抽屉时自动显示键盘</string>
+    <string name="icon_size_title">图标大小</string>
+    <string name="font_size_title">字体大小</string>
+    <string name="icon_two_lines_title">应用名称显示为两行</string>
+    <string name="row_height_title">行高</string>
+    <string name="hotseat_bg_title">底部栏背景</string>
+    <string name="hotseat_bg_summary">为应用底部栏添加半透明背景</string>
+    <string name="background_opacity_title">背景不透明度</string>
+    <string name="recent_task_option_kill_app">结束应用</string>
+    <string name="recents_app_killed">应用已结束</string>
+    <string name="label_search">搜索</string>
+    <string name="label_lens">Google Lens</string>
+    <string name="label_voice_search">语音搜索</string>
+    <string name="label_gemini_search">AI 模式</string>
+    <string name="dock_music_search_title">音乐搜索</string>
+    <string name="dock_music_search_summary">点按麦克风图标时开始音乐搜索</string>
+    <string name="dock_search_title">Google 搜索栏</string>
+    <string name="dock_search_summary">在屏幕底部栏显示搜索栏</string>
+    <string name="hotseat_qsb_space_title">搜索栏上方间距</string>
+    <string name="dock_theme_title">主题图标</string>
+    <string name="dock_theme_summary">为搜索栏使用主题图标</string>
+    <string name="search_radius_title">圆角半径</string>
+    <string name="google_app_not_system_summary">Google 应用未作为系统应用安装。仅从 Play 商店安装不足以启用此功能。</string>
+    <string name="pref_grayscale_icon_map_lawn_title">将 LawnIcons 用作主题图标</string>
+    <string name="pref_grayscale_icon_map_lawn_summary">使用 LawnIcons 作为主题图标，替代 Pixel 默认主题图标。
+⚠️ 若要应用更改，请重启设备，然后在“壁纸和样式”中关闭并重新开启主题图标。</string>
+    <string name="stroke_width_title">描边宽度</string>
+    <string name="drawer_search_title">应用搜索栏位置</string>
+    <string name="drawer_search_location_hidden">隐藏</string>
+    <string name="drawer_search_location_top">顶部</string>
+    <string name="drawer_search_location_bottom">底部</string>
+    <string name="allow_wallpaper_scrolling">壁纸滚动</string>
+    <string name="allow_wallpaper_scrolling_summary">在多个主屏幕页面间滚动壁纸</string>
+    <string name="allow_wallpaper_zooming">壁纸缩放</string>
+    <string name="allow_wallpaper_zooming_summary">打开应用抽屉或最近任务时缩放壁纸</string>
+    <string name="show_statusbar_title">状态栏</string>
+    <string name="show_top_shadow">顶部阴影</string>
+    <string name="meminfo_text">可用 %1$s | %2$s</string>
+    <string name="recents_meminfo_title">内存信息</string>
+    <string name="recents_screenshot_title">截屏</string>
+    <string name="recents_clear_all_title">全部清除</string>
+    <string name="recents_lens_title">Lens</string>
+    <string name="short_parallax_title">启用短页面视差</string>
+    <string name="short_parallax_summary">页面较少时也完整滚动壁纸，而不是裁剪壁纸</string>
+    <string name="single_page_center_title">单页居中</string>
+    <string name="single_page_center_summary">仅使用一个页面时将壁纸居中</string>
+    <string name="drawer_scrollbar_title">滚动条</string>
+    <string name="drawer_scrollbar_summary">在应用抽屉侧边显示滚动条</string>
+    <string name="perf_dark_status_bar_title">深色状态栏</string>
+    <string name="perf_dark_status_bar_summary">主屏幕始终使用深色状态栏</string>
+    <string name="show_quickspace_title">一览</string>
+    <string name="show_quickspace_summary">在主屏幕顶部显示</string>
+    <string name="quickspace_grt_morning">早上好</string>
+    <string name="quickspace_grt_evening">晚上好</string>
+    <string name="quickspace_grt_afternoon">下午好</string>
+    <string name="quickspace_grt_night">晚安</string>
+    <string name="quickspace_grt_general">你好</string>
+    <string name="quickspace_ext_one">今天是</string>
+    <string name="quickspace_ext_two">现在是</string>
+    <string name="qe_now_playing_unknown_artist">未知艺术家</string>
+    <string name="qe_now_playing_ext_one">正在播放</string>
+    <string name="qe_now_playing_by">演唱者</string>
+    <string name="quickspace_now_playing_title">正在播放</string>
+    <string name="quickspace_now_playing_summary">显示正在播放的歌曲</string>
+    <string name="quickspace_alternate_style_title">扩展样式</string>
+    <string name="quickspace_alternate_style_summary">切换到扩展样式</string>
+    <string name="quickspace_clock_title">显示 Quickspace 时钟</string>
+    <string name="quickspace_clock_summary">在 Quickspace 中显示时间</string>
+    <string name="quickspace_clock_color_title">Quickspace 时钟颜色</string>
+    <string name="quickspace_clock_color_summary">更改时钟首个字符的颜色</string>
+    <string name="quickspace_psa_title">随机消息</string>
+    <string name="quickspace_psa_summary">通过随机消息让桌面助手更生动</string>
+    <string-array name="quickspace_psa_morning">
+        <item>早上好！</item>
+        <item>早上好，活力满满地开始新一天吧！</item>
+        <item>多么美好的一天！</item>
+        <item>祝你今天愉快！</item>
+        <item>要不要小睡五分钟？</item>
+        <item>努力把握今天。</item>
+        <item>清晨是描绘每日精彩篇章的新画布。</item>
+        <item>拥抱日出，迎接每个新机会。</item>
+        <item>在晨光中找到照亮前路的力量。</item>
+        <item>新的一天充满无限可能。</item>
+        <item>每一次日出都提醒你可以重新开始。</item>
+        <item>带着目标醒来，迎接今天的挑战。</item>
+        <item>你的想法可以成为伟大成就的基石。</item>
+        <item>世界醒来了，你的潜力也正待绽放。</item>
+        <item>开启每日冒险的第一章。</item>
+        <item>让早晨的计划成为成功的起点。</item>
+        <item>无论日出与否，你的潜力始终向上。</item>
+        <item>是时候尝试新想法、采取新行动了。</item>
+        <item>早起的鸟儿有虫吃，而你可以追逐梦想。</item>
+        <item>鼓起勇气，追寻心中的目标。</item>
+        <item>起床吧，美好的事物正等待着你。</item>
+        <item>现在就是开始的最佳时机。</item>
+    </string-array>
+    <string-array name="quickspace_psa_noon">
+        <item>追逐梦想，别只盯着时间。</item>
+        <item>每一刻都藏着新的机会。</item>
+        <item>享受旅程，而不只是终点。</item>
+        <item>今天是份礼物，所以英文把现在称为 present。</item>
+        <item>让你的微笑改变世界。</item>
+        <item>人生是一段故事，让每一章都精彩。</item>
+        <item>在平凡的时刻中发现快乐。</item>
+        <item>最好的还在后面，继续加油。</item>
+        <item>把“如果”变成“就是现在”的机会来了。</item>
+        <item>从此刻开始，把握今天。</item>
+        <item>随时都可以选择快乐。</item>
+        <item>即使午后困倦，也要相信自己。</item>
+        <item>让行动比时钟更有说服力。</item>
+        <item>人生由你书写，让它精彩纷呈。</item>
+        <item>大胆梦想，努力奋斗，永不放弃。</item>
+        <item>你比自己想象的更强大。</item>
+        <item>每次挫折都可能成为重新出发的契机。</item>
+        <item>享受旅程，而不只是终点。</item>
+        <item>追逐目标，而不是恐惧。</item>
+        <item>你的潜力无穷，尽情释放吧。</item>
+    </string-array>
+    <string-array name="quickspace_psa_early_evening">
+        <item>无论几点，都要珍惜当下。</item>
+        <item>每个黄昏都孕育着新的机会。</item>
+        <item>人生是一段旅程，别忘了欣赏沿途风景。</item>
+        <item>你的态度塑造你的现实。</item>
+        <item>即使太阳落山，你的故事仍在继续。</item>
+        <item>在平凡的时刻里发现美好。</item>
+        <item>是时候回顾并重新出发了。</item>
+        <item>无论时钟指向何时，都要选择快乐。</item>
+        <item>夜晚也有新的机会。</item>
+        <item>成为让别人微笑的理由。</item>
+        <item>你的潜力没有边界。</item>
+        <item>任何时刻都可能发生奇妙的事。</item>
+        <item>人生由你书写，让它非凡出众。</item>
+        <item>保持好奇，心怀感恩。</item>
+        <item>成为你希望世界出现的改变。</item>
+        <item>相信自己，你能做到许多精彩的事。</item>
+        <item>唯一的限制，是你为自己设下的界限。</item>
+        <item>成功始于迈出的第一步。</item>
+    </string-array>
+    <string-array name="quickspace_psa_evening">
+        <item>拥抱夜晚，探索它独有的神秘。</item>
+        <item>在宁静的夜晚找到平和。</item>
+        <item>人生最精彩的冒险也许从黑夜开始。</item>
+        <item>太阳落山后，你的旅程仍在继续。</item>
+        <item>让夜晚成为画布，用梦想为它着色。</item>
+        <item>在夜的静谧中找到内心的平和。</item>
+        <item>星星在最黑暗的夜空中最闪亮。</item>
+        <item>即使夜深，也要大胆梦想。</item>
+        <item>你的人生故事正等待着你书写。</item>
+        <item>是时候反思并重新开始了。</item>
+        <item>深夜的思绪或许会带来清晨的顿悟。</item>
+        <item>在夜晚的静谧中发现快乐。</item>
+        <item>夜空是一片承载梦想的画布。</item>
+        <item>潜力没有作息时间，尽情追寻热爱吧。</item>
+        <item>即使身处黑暗，也要保持希望。</item>
+        <item>在纷扰中找到内心的平静。</item>
+        <item>保持乐观，努力奋斗，让梦想成真。</item>
+    </string-array>
+    <string-array name="quickspace_psa_midnight">
+        <item>夜晚是机会轻声到来的时刻。</item>
+        <item>在夜的静谧中找到内心的力量。</item>
+        <item>拥抱黑暗，因为梦想的钥匙也藏在其中。</item>
+        <item>世界沉睡时，你的潜力依然清醒。</item>
+        <item>夜虽已深，雄心壮志永不迟。</item>
+        <item>保持好奇与清醒，让夜晚为你指引方向。</item>
+        <item>鼓起勇气，追逐梦想。</item>
+        <item>伟大的成就从不来自安逸。</item>
+        <item>你有能力创造自己的命运。</item>
+        <item>快乐是一种选择，每天都选择快乐吧。</item>
+        <item>生活由你创造，让每一天都值得铭记。</item>
+        <item>保持专注、坚定，勇往直前。</item>
+        <item>你是自己故事的作者。</item>
+        <item>追求进步，而非完美。</item>
+        <item>每一天都是新的开始，让它变得精彩。</item>
+        <item>做真实的自己，鼓舞身边的人。</item>
+        <item>你的态度决定前进的方向。</item>
+    </string-array>
+    <string-array name="quickspace_psa_random">
+        <item>又到刷入新更新的时候了吗？</item>
+        <item>与其和平，不如开战。</item>
+        <item>嘿，最近怎么样？</item>
+        <item>专注于手头的事情。</item>
+        <item>你截过多少张屏？</item>
+        <item>你现在就在 Infinity 之中！</item>
+        <item>来点好音乐吧。</item>
+        <item>从零开始。</item>
+        <item>终于开始探索 INFINITY 了？</item>
+        <item>欢迎使用 Infinity-X。</item>
+        <item>今天做点好事吧。</item>
+        <item>告别幻想，欢迎来到现实！</item>
+        <item>感谢你的支持。</item>
+        <item>体验很棒，对吧？</item>
+        <item>你在想什么？</item>
+        <item>Expecto Patronum</item>
+        <item>无限热爱！</item>
+        <item>Infinity 即将到来。</item>
+        <item>rm -rf \/</item>
+        <item>记得查看设备电量！</item>
+        <item>查看一下邮件或消息。</item>
+        <item>如果有待办清单，记得看一看。</item>
+        <item>你可以在桌面设置中关闭 Quickspace。</item>
+        <item>喜欢我们吗？请我们喝杯啤酒吧。</item>
+        <item>史上最佳 ROM。</item>
+        <item>欢迎到 Telegram 上和我们打招呼。</item>
+        <item>AI 会毁灭人类吗？</item>
+    </string-array>
+    <string name="intent_no_app_clock_found">找不到日历或时钟应用</string>
+    <string name="quick_event_ambient_weather_title">天气更新</string>
+    <string name="quick_event_ambient_weather_summary">显示当前天气</string>
+    <string name="quick_event_ambient_weather_enabled_info">需要先启用天气服务</string>
+    <string name="quick_event_weather_clouds">多云</string>
+    <string name="quick_event_weather_rain">有雨</string>
+    <string name="quick_event_weather_clear">晴朗</string>
+    <string name="quick_event_weather_storm">雷雨</string>
+    <string name="quick_event_weather_snow">下雪</string>
+    <string name="quick_event_weather_wind">有风</string>
+    <string name="quick_event_weather_mist">有雾</string>
+    <string name="quick_event_weather_city_title">当前位置</string>
+    <string name="quick_event_weather_city_summary">显示当前天气位置</string>
+    <string name="quick_event_weather_text_title">当前天气</string>
+    <string name="quick_event_weather_text_summary">显示当前天气状况</string>
+    <string name="auto_hide_dots">自动隐藏页面指示点</string>
+    <string name="auto_hide_dots_summary">自动隐藏页面指示点</string>
+    <string name="background_blur_title">背景模糊程度</string>
+    <string name="background_blur_summary">设置最近任务和应用抽屉的模糊程度</string>
+    <string name="icon_pack_title">图标包</string>
+    <string name="icon_pack_default_label">默认</string>
+    <string name="icon_pack_add">安装更多</string>
+    <string name="icon_pack_no_market">没有可用的应用商店</string>
+    <string name="wallpaper_carousel_title">壁纸轮播</string>
+    <string name="wallpaper_carousel_summary">通过长按菜单快速切换壁纸</string>
+    <string name="wallpaper_carousel_lockscreen_title">应用到锁屏</string>
+    <string name="wallpaper_carousel_lockscreen_summary">在锁屏上使用相同壁纸</string>
+    <string name="weather_settings_title">天气设置</string>
+    <string name="weather_settings_summary">设置图标包和天气服务</string>
+    <string name="label_ai_mode">AI 模式</string>
+    <string name="ai_mode_not_available">AI 功能不可用</string>
+    <string name="qsb_outer_opacity_title">搜索栏外框不透明度</string>
+    <string name="qsb_outer_opacity_summary">调整搜索栏外框的不透明度</string>
+    <string name="custom_seekbar_value">当前值：%s</string>
+    <string name="custom_seekbar_default_value">默认</string>
+    <string name="custom_seekbar_default_value_to_set">默认值：%s
+长按以设置</string>
+    <string name="custom_seekbar_default_value_is_set">已设为默认值</string>
+    <string name="navbar_burn_in_protection_title">导航栏防烧屏</string>
+    <string name="navbar_burn_in_protection_summary">定期移动导航手势条，防止屏幕烧屏</string>
+    <string name="navbar_burn_in_interval_title">移动间隔</string>
+    <string name="overview_gesture_title">最近任务上滑手势</string>
+    <string name="overview_gesture_summary">在最近任务中向上滑动应用以触发指定操作</string>
+    <string name="overview_gesture_action_title">上滑触发操作</string>
+    <string name="overview_gesture_action_freeform">在小窗中打开</string>
+    <string name="overview_gesture_action_split_screen">开启分屏</string>
+    <string name="overview_gesture_threshold_title">滑动触发距离</string>
+    <string name="overview_gesture_threshold_summary">较小值触发更快，较大值需要更长的滑动距离</string>
+    <string name="freeform_gesture_threshold_reached">松开以启动小窗</string>
+    <string name="rename_app_label">重命名应用</string>
+    <string name="rename_app_reset">重置</string>
+    <string name="app_info_custom_icon_title">自定义图标</string>
+    <string name="app_info_custom_icon_summary">从已安装的图标包中选取图标</string>
+    <string name="icon_picker_search_hint">搜索图标</string>
 </resources>
